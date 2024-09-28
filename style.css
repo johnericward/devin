@@ -1,0 +1,536 @@
+html,
+body {
+    width: 100%;
+
+
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+
+.sideBar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    margin: 0 0 0 17%;
+    text-align: center;
+    align-content: center;
+    /* background-color: rgb(240, 237, 255); */
+}
+
+
+.siteTitle {
+    color: rgb(158, 158, 226);
+
+    text-align: center;
+    align-content: center;
+    margin: 7vh auto 0 auto;
+    padding: 0 5%;
+    font-size: 2vw;
+
+    text-decoration: none;
+
+    /* z-index:2; */
+    font-family: 'Chewy', courier;
+    letter-spacing: 1px;
+    transition: font-size .4s;
+
+
+}
+
+.siteTitle:hover {
+    font-size: 2.1vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* 
+  .siteTitleOuter:hover {
+      color: rgb(132, 132, 189);
+      text-decoration: none;
+      text-shadow: 10px 10px 25px #c0c0c0;
+      z-index:2;
+      text-align: center;
+      align-content: center;
+      margin: 2%;
+      
+  } */
+
+/* .siteSubTitle {
+      color: rgb(207, 158, 226);
+      margin: 0 auto;
+      text-align: center;
+      padding: 5% 0;
+      font-style: italic;
+      font-weight: 500;
+      z-index:2;
+  } */
+
+
+
+/* ================NAV================= */
+.nav {
+    text-align: center;
+    align-content: center;
+    font-size: 90%;
+    margin: 0 15%;
+    color: rgb(207, 158, 226);
+    /* transform: scale(1, .9); */
+    /* color: rgb(207, 158, 226); */
+
+}
+
+.navSub {
+    /* transform: scale(1, .9); */
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(207, 158, 226);
+    text-decoration: none;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 1px;
+}
+
+.navSub:link {
+    color: rgb(207, 158, 226);
+    text-decoration: none;
+}
+
+.navSub:visited {
+    color: none;
+}
+
+.navSub:hover {
+    color: rgb(239, 210, 250);
+    /* text-shadow: 1px 1px 8px rgba(200,200,200,10); */
+}
+
+.navSub:active {
+    color: rgb(239, 210, 250);
+
+}
+
+.navActivePage {
+    color: rgb(239, 210, 250);
+}
+
+/* ==========={ BS nav BS }=========== */
+.navbar {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+}
+
+.bg {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+}
+
+.navbar-light {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+}
+
+.navbar-expand-lg {
+    background-color: none;
+    text-align: center;
+    align-content: center;
+}
+
+.navbar-nav {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(207, 158, 226);
+    text-decoration: none;
+}
+
+.navbar-nav:hover {
+    color: rgb(190, 190, 190);
+}
+
+.nav-item {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(207, 158, 226);
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: rgb(190, 190, 190);
+}
+
+.nav-link {
+    text-align: center;
+    padding: 1% auto;
+    align-content: center;
+    margin: 0 auto;
+    color: rgb(207, 158, 226);
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    text-align: center;
+    align-content: center;
+}
+
+.navbar-toggler-icon {
+    text-align: center;
+    align-content: center;
+
+}
+
+.instaHref {
+    text-decoration: none;
+}
+
+.instaHref:hover {
+    text-decoration: none;
+}
+
+.instaLink {
+    width: 1.5vw;
+    text-align: center;
+    align-content: center;
+    transition: width 1.5;
+}
+
+.instaLink:hover {
+    width: 2vw;
+    /* text-align: center;
+        align-content: center; */
+
+}
+
+/* ============================={ End Head of Page }================================ */
+
+
+
+
+
+
+
+/* .backgroundPic {
+  z-index: 1;
+  display: contents;
+  } */
+
+.buildContent {
+    margin: 2% 1% 2% 1%;
+    text-align: center;
+    align-content: center;
+}
+
+.build {
+    width: 100%;
+    margin: 2% 0;
+}
+
+.topJumpContainer {
+    margin: 15% auto 20% auto;
+    text-align: center;
+    align-content: center;
+    font-size: 1vw;
+}
+
+.topJumpLink {
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+}
+
+.topJumpLink:hover {
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+
+
+.cardy {
+    /* height: 300px; */
+    border-radius: 40px;
+    background-color: rgb(76, 76, 189);
+    font-family: 'Chewy', cursive;
+    letter-spacing: 1px;
+    color: white;
+    margin: 1% auto;
+    /* padding:3% auto; */
+}
+.cardyTitle{
+    padding: 5% 0 0 0;
+    font-size: 1.5vw;
+}
+.cardyText {
+    margin: 5% auto 0 auto;
+}
+.cardyPics {
+    width: 80%;
+}
+.cardyBottom {
+    height: 10px;
+}
+
+/* ========================={ Contact }============================================= */
+
+.leftContact {
+
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+
+.gMoney {
+    width: 25vw;
+    margin: 7vw auto;
+
+}
+
+.aboutText {
+    font-size: 1.3vw;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 1px;
+    color: rgb(207, 158, 226);
+    width: 80%;
+    margin: 0 auto 20% auto;
+    text-align: center;
+    align-content: center;
+}
+
+.rightContact {
+    /* background-color: rgb(194, 194, 255); */
+}
+
+.contactFormTitle {
+    margin: 40vh auto 0 auto;
+    width: 50%;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 2vw;
+    color: rgb(207, 158, 226)
+}
+
+.contactEntry {
+    /* text-align: center; */
+    margin: 3vh auto;
+    width: 70%;
+
+}
+
+.formTitleTag {
+    /* text-align: left; */
+    font-family: 'Chewy', cursive;
+    color: rgb(207, 158, 226);
+}
+
+.formNameEntry {
+    width: 100%;
+}
+
+.formEmailEntry {
+    width: 100%;
+}
+
+.formMessageEntry {
+    width: 100%;
+}
+
+
+.subBtnStyle {
+    /* justify-content: center; */
+    /* align-content: center; */
+    text-align: center;
+    /* border-radius: 4px; */
+}
+
+.submit-btn {
+    border-radius: 7px;
+    text-decoration: none;
+    border: none;
+    font-family: 'Chewy', cursive;
+    letter-spacing: 1px;
+    color: rgb(207, 158, 226);
+    background-color: rgb(240, 239, 251);
+    /* box-shadow: 3px 4px 8px rgba(200,200,200,10); */
+}
+
+.submit-btn:link {
+    text-decoration: none;
+    background-color: blue;
+}
+
+.submit-btn:hover {
+    text-decoration: none;
+    background-color: rgb(246, 246, 246);
+    color: rgb(242, 208, 255);
+    border: none;
+    box-shadow: 3px 4px 8px rgba(200, 200, 200, 10);
+}
+
+.submit-btn:visited {
+    text-decoration: none;
+}
+
+.submit-btn:active {
+    text-decoration: none;
+}
+
+.successMessage {
+    text-align: center;
+    align-content: center;
+    color: rgb(9, 226, 197);
+    font-size: 1vw;
+    font-family: 'Chewy', cursive;
+    /* font-weight: lighter; */
+}
+
+
+
+/* ========================{ Messages Page }======================================= */
+
+
+.messagesDiv {
+    align-content: center;
+    text-align: center;
+    margin: 25vh auto;
+    width: 90%;
+}
+
+.nameCol {
+    color: rgb(255, 120, 232);
+}
+
+.emailCol {
+    color: rgb(217, 120, 255);
+}
+
+.messageCol {
+    color: rgb(172, 120, 255);
+}
+
+
+
+
+
+/* ========================{ Media Queries }======================================= */
+
+/* PHONES */
+
+@media screen and (max-width: 992px) {
+
+
+    html,
+    body {
+        width: 100%;
+
+
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+
+
+    .sideBar {
+        margin: 0 auto;
+    }
+
+    .siteTitle {
+        font-size: 6vw;
+    }
+
+    .siteTitle:hover {
+        font-size: 7vw;
+    }
+
+    .subTitle {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+
+    .instaLink {
+        width: 5vw;
+        /* text-align: center;
+          align-content: center; */
+        transition: width 5;
+    }
+
+    .instaLink:hover {
+        width: 7vw;
+        /* text-align: center;
+          align-content: center; */
+
+    }
+
+
+    .build {
+        width: 95%;
+        margin: 2% 0;
+    }
+
+
+    .topJumpContainer {
+        margin: 15% auto 20% auto;
+        font-size: 3vw;
+    }
+
+    .gMoney {
+        width: 80vw
+    }
+
+    .aboutText {
+        font-size: 3.5vw;
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
+
+    .contactFormTitle {
+        margin: 15vh auto 0vh auto;
+        width: 50%;
+        font-family: 'Chewy', cursive;
+        letter-spacing: 1px;
+        text-align: center;
+        font-size: 5vw;
+        color: rgb(168, 158, 226)
+    }
+
+    .contactEntry {
+        /* text-align: center; */
+        margin: 3vh auto;
+        width: 80%;
+
+    }
+
+    .successMessage {
+
+        font-size: 4vw;
+
+        margin: 10% auto 20% auto;
+
+    }
+
+
+
+
+
+    .cardyTitle{
+        padding: 5% 0 0 0;
+        font-size: 5vw;
+    }
+
+}
